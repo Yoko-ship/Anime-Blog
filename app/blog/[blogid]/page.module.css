@@ -1,0 +1,36 @@
+.anime_blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    color: white;
+}
+.title_descrip{
+    margin: 1.5rem;
+    color: white;
+}
+.title_descrip h2{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;
+
+}
+.title_descrip p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.additional{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 15px;
+}
+.additional span{
+    font-size: 1.5rem;
+}
+.additional a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}

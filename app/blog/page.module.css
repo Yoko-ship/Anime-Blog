@@ -1,0 +1,46 @@
+.grid{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+}
+.images{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.description{
+    padding-left: 3rem;
+    width: 25%;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.ReadFull{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 5rem;
+    border: none;
+    background: none;
+
+}
+.ReadFull::after{
+    content: url("/arrow.png");
+}
+.ReadFull a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+.description p:nth-child(1){
+    font-size: 1.4rem;
+    margin: 0.5rem 0 ;
+}
