@@ -1,6 +1,5 @@
 .grid{
     display: flex;
-    width: 100%;
     margin: 2rem 0;
 }
 .images{
@@ -43,4 +42,19 @@
 .description p:nth-child(1){
     font-size: 1.4rem;
     margin: 0.5rem 0 ;
+}
+
+@media screen and (max-width:1000px){
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .images{
+        display: none;
+    }
+    .description{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
 }

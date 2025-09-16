@@ -12,8 +12,6 @@ function Header() {
         <ul>
           <li className={param === "/" ? classes.active : undefined}><Link href="/">Home</Link></li>
           <li className={param === "/blog" ? classes.active : undefined}><Link href="/blog" >Blog</Link></li>
-          <li className={param === "/Sign up" ? classes.active : undefined}><Link href="/" >Sign up</Link></li>
-          <li className={param === "/Login" ? classes.active : undefined}><Link href="/" >Login</Link></li>
         </ul>
       </nav>
     </header>

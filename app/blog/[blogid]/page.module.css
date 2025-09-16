@@ -34,3 +34,12 @@
     color: white;
     font-size: 2rem;
 }
+
+@media screen and (max-width:1000px) {
+    .embed iframe{
+        width: 100%;
+    }
+    .anime_blog img{
+        width: 100%;
+    }
+}

@@ -16,7 +16,7 @@ export const Grids:React.FC<{id:number,genre:string}> = ({id,genre})=>{
     getData()
   },[])
   return (
-    <>
+    <div className={classes.grids}>
     {data?.map((arr: any,index) => (
       <div className={classes.grid} key={index}>
         <div className={classes.images}>
@@ -35,6 +35,6 @@ export const Grids:React.FC<{id:number,genre:string}> = ({id,genre})=>{
         </div>
       </div>
     ))}
-  </>
+  </div>
   )
 }
