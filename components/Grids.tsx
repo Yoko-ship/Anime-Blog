@@ -6,6 +6,7 @@ import { ReadMore } from './ReadMore'
 
 export const Grids:React.FC<{id:number,genre:string}> = ({id,genre})=>{
   const [data,setData] = useState<[]>()
+  
   useEffect(() =>{
     const getData = async() =>{
       const response = await fetch(`https://api.jikan.moe/v4/anime?genres=${id}&page=2`)

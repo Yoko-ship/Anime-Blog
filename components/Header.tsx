@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import classes from "@/app/page.module.css"
 import {usePathname} from "next/navigation";
